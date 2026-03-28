@@ -19,15 +19,30 @@ This project implements a **Speech Emotion Recognition (SER)** system using Deep
 | L2-Only | 60.93% | 0.6031 |
 | **Augmented Data** | **TBD** | **TBD** |
 
-## Visualizations
 
-### 1. Training Convergence (LAF Curves)
-![Training GIF](./assets/training_process.gif)
-*Animation showing the Loss and Accuracy evolution across epochs.*
+## 📊 Model Performance Visualization
+
+### 1. Training Convergence (Loss & Accuracy Curves)
+
+#### 🔹 Base Model
+![Base Training](./assets/base_training.png)
+*Loss and accuracy evolution across epochs for the baseline model.*
+
+#### 🔹 Optimal Model
+![Optimal Training](./assets/optimal_training.png)
+*Improved convergence behavior after tuning and optimization.*
+
+---
 
 ### 2. Confusion Matrix
-![Confusion Matrix](./assets/confusion_matrix.png)
-*Detailed breakdown of emotion classification accuracy.*
+
+#### 🔹 Base Model
+![Base Confusion Matrix](./assets/base_confusion_matrix.png)
+*Classification performance of the baseline model across emotion classes.*
+
+#### 🔹 Optimal Model
+![Optimal Confusion Matrix](./assets/optimal_confusion_matrix.png)
+*Enhanced classification accuracy and reduced misclassification after optimization.*
 
 ## Project Structure
 - `ser-dpl.ipynb`: Main notebook for training.
