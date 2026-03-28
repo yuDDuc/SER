@@ -1,6 +1,6 @@
 # Speech Emotion Recognition (SER) Analysis
 
-![SER Header](https://raw.githubusercontent.com/username/SER/main/assets/header.png)
+![SER Header](./assets/header.png)
 
 ## Overview
 This project implements a **Speech Emotion Recognition (SER)** system using Deep Learning. It evaluates multiple model architectures (Baseline, Dropout, Batch Normalization, L2 Regularization) and Data Augmentation techniques to classify emotions from audio signals.
