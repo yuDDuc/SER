@@ -29,6 +29,12 @@ This project implements a **Speech Emotion Recognition (SER)** system using Deep
 ![Confusion Matrix](./assets/confusion_matrix.png)
 *Detailed breakdown of emotion classification accuracy.*
 
+## Project Structure
+- `ser-dpl.ipynb`: Main notebook for training.
+- `scripts/generate_gif.py`: High-quality GIF generator.
+- `results/`: Directory for exported training history (.json).
+- `assets/`: Directory for visualization images and GIFs.
+
 ## Installation
 ```bash
 git clone https://github.com/username/SER.git
